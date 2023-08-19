@@ -1,0 +1,66 @@
+<head>
+    <meta charset="UTF-8">
+    <title>SmarthphoneApp</title>
+    </head>
+    <body>
+    <main>
+    <h1>SmarthphoneApp</h1>
+    <section>
+        <h2>Smarthphone</h2>
+        <!-- TODO: Add link to smarthphone -->
+        <p>You can <a target="_blank" href="https://www.amazon.com">buy Smartphones</a> in Amazon</p>
+        <a href="https://www.amazon.com"><img src="/src/img/amazon-logo.jpg" alt="Logo de amazon." width="10%"></a>
+        <!-- Mala practica usar css en HTML = width="10%"-->
+        <!-- alt: Describe una imagen Permite a los motores de búsqueda rastrear y clasificar mejor el sitio web,
+            tambien ayuda a los software de lectura a describir las imágenes para los lectores con discapacidad visual. -->
+    </section>
+    <section>
+        <h2>Smartphones Lists</h2>
+        <h3>What kind of smarthphone do people use?</h3>
+        <ul>
+    <li>large screen</li>
+    <li>medium screen</li>
+    <li>small screen</li>
+        </ul>
+        <figure>
+    <img src="/src/img/Samsung.png" alt="Samsung's latest model, the Samsung galaxy S23 Ultra" width="30%">
+    <figcaption>Samsung <em>galaxy</em> S23 Ultra.</figcaption>  
+        </figure>
+        <h3>Top 3 best Smarthphones 2023</h3>
+        <ol>
+    <li>Apple Iphone 14 Pro</li>
+    <li>Google Pixel 7 Pro</li>
+    <li>Samsung Galaxy s23 Ultra</li>
+        </ol>
+        <figure>
+    <img src="/src/img/Iphone.png" alt="Latest iPhone model from the Apple company, the Iphone 14 pro." width="40%">
+    <figcaption>Iphone <strong>14 Pro</strong> </figcaption>  
+        </figure>
+    </section>
+    <section>
+        <h2>Smarthphone form</h2>
+        <form action="https://twitter.com/Elrond183273/status/1692699518330982686?s=20">
+    <fieldset>
+            <legend>Do you have a smartphone?</legend>
+            <label><input id="yes" type="radio" name="yes-no" value="yes" checked> Yes</label>
+            <label><input id="no" type="radio" name="yes-no" value="no"> No</label>
+    </fieldset>
+    <fieldset>
+            <legend>Do you have one of the 3 best phones of 2023?</legend>
+            <input id="iphone" type="checkbox" name="smarthphone" value="iphone" checked> <label for="iphone">Apple Iphone 14 Pro</label>
+            <input id="google" type="checkbox" name="smarthphone" value="google"> <label for="google">Google Pixel 7 Pro</label>
+            <input id="samsung" type="checkbox" name="smarthphone" value="samsung"> <label for="samsung">Samsung Galaxy s23 Ultra</label>
+            <input id="otro" type="checkbox" name="smarthphone" value="otro"> <label for="otro">Otro</label>
+    </fieldset>
+    <input type="text" name="smarthphoneurl" placeholder="smarthphone photo URL" required>
+    <button id="button-form" type="submit">Submit</button>
+        </form>
+    </section>
+    </main>
+    <footer>
+    <p>
+        No Copyright - <a href="https://twitter.com/Elrond183273">Elrond</a>
+    </p>
+    </footer>
+    </body>
+</html>
